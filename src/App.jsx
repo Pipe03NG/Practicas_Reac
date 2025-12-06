@@ -3,6 +3,9 @@ import Header from "./components/Header";
 import Presentacion from "./Pages/Presentacion";
 import Experiencia from "./Pages/Experiencia";
 import Contacto from "./Pages/Contacto";
+import Consumo from "./Pages/Consumo";
+import Envio from "./Pages/Envio";
+
 import './App.css';
 
 function App() {
@@ -16,6 +19,9 @@ function App() {
           <Route path="/" element={<Presentacion />} />
           <Route path="/experiencia" element={<Experiencia />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/Consumo" element={<Consumo />} />
+          <Route path="/Envio" element={<Envio/>} />
+          
         </Routes>
       </main>
     </BrowserRouter>
