@@ -87,8 +87,10 @@ export default function Envio() {{
    * - Mostramos un input controlado para el ID, un botón para buscar y el resultado.
    * - Condicionalmente renderizamos mensajes de error y la tarjeta del personaje.
    */
+
+
   return (
-    <div style={{ maxWidth: 640, margin: "0 auto", padding: 16 }}>
+    <div style={{ maxWidth: 640, margin: "12 auto", padding: 16 }}>
       {/* 6.1) Título y breve descripción */}
       <h1>Buscar personaje por ID</h1>
       <p>Ingresa un número de ID y presiona "Buscar" para obtener un personaje.</p>
