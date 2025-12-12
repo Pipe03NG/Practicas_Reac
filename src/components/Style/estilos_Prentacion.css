@@ -1,0 +1,92 @@
+/* src/components/Style/estilos_Prentacion.css */
+
+body {
+    background-color: #7b817f; 
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.portafolio-container {
+    max-width: 900px; 
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #000000;
+    box-shadow: 0 0 10px rgb(2, 247, 235);
+}
+
+
+
+.portafolio-container h1 {
+    color: #f0f0f0;
+    text-align: justify;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    
+}
+
+.portafolio-container h2 {
+    color: #e7e7e7;
+    border-bottom: 2px solid #ffffff; 
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+.portafolio-container h3 {
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+
+.encabezado p {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    margin: 0;
+}
+
+.perfil{
+    color: #f8f8f8;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.perfil-contenedor {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.portafolio-container .seccion p {
+    text-align: justify;
+    padding: 15px;
+    background-color: #fafafa; 
+    border-radius: 5px;
+    border-left: 4px solid #61dafb; 
+}
+
+
+
+.habilidades-lista {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.habilidades-lista li {
+    background-color: #fcfcfc; 
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 4px; 
+    font-size: 0.95em;
+}

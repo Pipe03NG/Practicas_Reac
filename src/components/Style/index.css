@@ -1,0 +1,19 @@
+body {
+    background-color: #e90000; 
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    display: block; 
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 3px solid #61dafb; 
+    margin-bottom: 30px; 
+}

@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
+import Header from "./Pages/Header";
 import Presentacion from "./Pages/Presentacion";
 import Experiencia from "./Pages/Experiencia";
 import Contacto from "./Pages/Contacto";
