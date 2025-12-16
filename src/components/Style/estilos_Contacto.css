@@ -1,36 +1,24 @@
-/* src/components/Style/estilos_Contacto.css */
-
-
 .contenido {
     padding: 30px;
     max-width: 600px;
     margin: 0 auto;
     color: rgb(0, 0, 0);
-    
 }
-
-
 .contenido h2 {
     color: #ffffff;
     font-size: 2em;
     margin-bottom: 5px;
 }
-
-
 .contenido hr {
     border: 0;
     height: 1px;
     background-color: #ffffff;
     margin-bottom: 20px;
 }
-
-
 .contactos-lista {
-    list-style: none; 
+    list-style: none;
     padding-left: 0;
 }
-
-
 .contactos-lista li {
     background-color: #ffffff;
     padding: 12px 20px;
@@ -38,13 +26,10 @@
     border-radius: 5px;
     font-size: 1.1em;
 }
-
-
 .contactos-lista a {
     color: #003afa;
     text-decoration: none;
 }
-
 .contactos-lista a:hover {
     text-decoration: underline;
 }

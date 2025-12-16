@@ -1,30 +1,39 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./Pages/Header";
-import Presentacion from "./Pages/Presentacion";
-import Experiencia from "./Pages/Experiencia";
-import Contacto from "./Pages/Contacto";
-import Consumo from "./Pages/Consumo";
-import Envio from "./Pages/Envio";
+import { Routes, Route } from 'react-router-dom';
+import './App.css'; // Estilos globales
 
-import './App.css';
+// 1. Importación de todos los componentes de Página (RUTAS CORRECTAS)
+import Presentacion from './Pages/Presentacion.jsx';
+import Experiencia from './Pages/Experiencia.jsx';
+import Contacto from './Pages/Contacto.jsx';
+import Consumo from './Pages/Consumo.jsx';
+import Envio from './Pages/Envio.jsx';
+import Header from './Pages/Header.jsx'; 
 
 function App() {
   return (
-    <BrowserRouter>
-      {/* Header visible en TODAS las páginas */}
-      <Header />
-
+    <>
+      {/* El Header se renderiza siempre (contiene la navegación) */}
+      <Header /> 
+      
       <main>
+        {/* Aquí es donde se intercambia el contenido de la página */}
         <Routes>
-          <Route path="/" element={<Presentacion />} />
-          <Route path="/experiencia" element={<Experiencia />} />
-          <Route path="/contacto" element={<Contacto />} />
+          
+          {/* Ruta principal */}
+          <Route path="/" element={<Presentacion />} /> 
+          
+          {/* Rutas para la navegación */}
+          <Route path="/Presentacion" element={<Presentacion />} />
+          <Route path="/Experiencia" element={<Experiencia />} />
+          <Route path="/Contacto" element={<Contacto />} />
           <Route path="/Consumo" element={<Consumo />} />
-          <Route path="/Envio" element={<Envio/>} />
+          <Route path="/Envio" element={<Envio />} />
+          
+          <Route path="*" element={<h2>404: Página no encontrada</h2>} />
           
         </Routes>
       </main>
-    </BrowserRouter>
+    </>
   );
 }
 

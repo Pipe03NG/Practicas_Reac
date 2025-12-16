@@ -1,21 +1,14 @@
-/* src/components/Style/estilos_Experiencia.css */
-
-
 .experiencia-contenido {
     padding: 30px;
     max-width: 900px;
     margin: 0 auto;
 }
-
-
 .experiencia-contenido h2 {
     font-size: 2em;
     padding-bottom: 8px;
     margin-bottom: 20px;
     color: #f8f8f8;
 }
-
-
 .bloque-experiencia {
     background-color: #000000;
     padding: 25px;
@@ -24,16 +17,12 @@
     margin-bottom: 30px;
     font-size: 1.2em;
 }
-
-
 .bloque-experiencia h4 {
     color: #f8f8f8;
     font-size: 1.3em;
     margin-top: 0;
     margin-bottom: 10px;
 }
-
-
 .bloque-experiencia p {
     text-align: justify;
     line-height: 1.7;
